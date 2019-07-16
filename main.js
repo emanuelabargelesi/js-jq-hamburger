@@ -4,7 +4,6 @@ $(document).ready(function(){
   $( ".fa-bars" ).click(function() {
 
     $( ".hamburger-menu" ).show();
-    $( ".header-right > ul" ).show();
   });
 
 
@@ -12,6 +11,5 @@ $(document).ready(function(){
   $( ".fa-times" ).click(function() {
 
     $( ".hamburger-menu" ).hide();
-    $( ".header-right > ul" ).hide();
   });
 });
